@@ -9,8 +9,7 @@ Click on the bundle to install.
 
 Prerequisites
 -------------
-* TextMate 
-
+* TextMate  or Sublime Text
 
 Issues
 ------
