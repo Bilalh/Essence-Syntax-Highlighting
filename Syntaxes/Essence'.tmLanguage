@@ -10,6 +10,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>eprime</string>
+		<string>param</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\{</string>
