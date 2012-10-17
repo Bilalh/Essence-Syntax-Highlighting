@@ -1,23 +1,24 @@
-Essence' Syntax Highlighting {#readmeTitle}
+Essence Syntax Highlighting {#readmeTitle}
 ============================
-Essence' Syntax Highlighting for Textmate
+Essence and Essence' Syntax Highlighting for vim and TextMate
 {#description}
 
 Usage
 -----
+
+### Vim
+Add the files to your `.vim` directory
+
+### Textmate/Sublime Text
 Click on the bundle to install.
 
 Prerequisites
 -------------
-* TextMate  or Sublime Text
-
-Issues
-------
-None Yet
+* Vim, TextMate  or Sublime Text
 
 Licence
 -------
-[Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/ "Full details")
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html "Full details")
 
 Authors
 -------
