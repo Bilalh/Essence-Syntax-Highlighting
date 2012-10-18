@@ -64,3 +64,28 @@ hi def link essenceTypes         Type
 hi def link essenceLang          Special
 hi def link essenceFunc          Function
 hi def link essenceKind          Function
+
+
+if exists('g:no_essence_conceal') || !has('conceal') || &enc != 'utf-8'
+    finish
+endif
+
+if exists('g:essence_conceal')
+
+" fancy stuff
+syntax keyword esNiceOperator forAll    conceal cchar=∀
+syntax keyword esNiceOperator sum       conceal cchar=∑
+syntax keyword esNiceOperator intersect conceal cchar=∩
+syntax keyword esNiceOperator exists    conceal cchar=∃
+syntax keyword esNiceOperator in        conceal cchar=∈
+
+syntax match esNiceOperator "!=" conceal cchar=≠
+syntax match esNiceOperator "/\\" conceal cchar=∧
+syntax match esNiceOperator "\\/" conceal cchar=∨
+
+hi link esNiceOperator Operator
+hi! link Conceal Operator
+setlocal conceallevel=2
+
+
+endif
