@@ -11,7 +11,7 @@ syn keyword essenceKeywords forall allDifferent dim toSet toMSet toRelation maxi
 syn keyword essenceTypes int bool enum true false total injective bijective surjective maxOccur minSize size numParts partSize complete maxSize regular
 
 "syn match essenceNumber '[^A-Za-z]\d\+' 
-syn match essenceNumber '\([a-zA-Z]\)\@<!\d\+' 
+syn match essenceNumber '\([a-zA-Z_0-9]\)\@<!\d\+'
 syn match essenceComment "$.*$"
 
 syn keyword essenceFunc preimage parts max min range
@@ -28,7 +28,7 @@ syn match essenceOpsArithmetic '/'
 
 syn match essenceOpsLogical    '!'
 syn match essenceOpsLogical    '->'
-syn match essenceOpsLogical    '\<-\>'
+syn match essenceOpsLogical    '<->'
 syn match essenceOpsLogical    '/\\'
 syn match essenceOpsLogical    '\\/'
 syn match essenceOpsLogical    '|'
