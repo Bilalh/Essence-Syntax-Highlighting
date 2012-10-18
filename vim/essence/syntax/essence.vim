@@ -11,7 +11,7 @@ syn keyword essenceKeywords forall allDifferent dim toSet toMSet toRelation maxi
 syn keyword essenceTypes int bool enum true false total injective bijective surjective maxOccur minSize size numParts partSize complete maxSize regular
 
 "syn match essenceNumber '[^A-Za-z]\d\+' 
-syn match essenceNumber '\([a-zA-Z_0-9]\)\@<!\d\+'
+syn match essenceNumber '\([a-zA-Z_0-9]\)\@<!\d\+' 
 syn match essenceComment "$.*$"
 
 syn keyword essenceFunc preimage parts max min range
@@ -70,7 +70,7 @@ if exists('g:no_essence_conceal') || !has('conceal') || &enc != 'utf-8'
     finish
 endif
 
-if exists('g:essence_conceal')
+if exists('g:essence_conceal') 
 
 " fancy stuff
 syntax keyword esNiceOperator forAll    conceal cchar=∀
