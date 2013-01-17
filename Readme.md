@@ -1,7 +1,9 @@
 Essence Syntax Highlighting {#readmeTitle}
 ============================
-Essence and Essence' Syntax Highlighting for vim and TextMate
+Essence and Essence' Syntax Highlighting for vim and TextMate and Sublime Text
 {#description}
+
+At the the moment the vim syntax highlighting is the most comprehensive and is more detailed.
 
 Usage
 -----
