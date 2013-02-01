@@ -17,7 +17,7 @@ syn keyword essenceFunc preimage parts max min range toSet toMSet toRelation toI
 syn keyword essenceKind matrix tuple set mset partition int bool enum
 
 
-syn match essenceLang "language ESSENCE'\? "
+syn match essenceLang "language Essence'\? "
 
 syn match essenceOpsArithmetic '+'
 syn match essenceOpsArithmetic '\*'
