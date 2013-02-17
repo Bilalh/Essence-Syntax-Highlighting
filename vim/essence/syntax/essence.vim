@@ -13,7 +13,7 @@ syn keyword essenceTypes  true false total injective bijective surjective maxOcc
 syn match essenceNumber '\([a-zA-Z_0-9]\)\@<!\d\+'
 syn match essenceComment "$.*$"
 
-syn keyword essenceFunc preimage parts max min range toSet toMSet toRelation toInt allDiff atleast atmost gcc alldifferent_except table
+syn keyword essenceFunc preImage parts max min range toSet toMSet toRelation toInt allDiff atleast atmost gcc alldifferent_except table
 syn keyword essenceKind matrix tuple set mset partition int bool enum
 
 
